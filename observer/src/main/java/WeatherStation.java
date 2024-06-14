@@ -4,7 +4,12 @@ public class WeatherStation {
 
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
         weatherData.setMeasurements(80, 65, 30.4f);
+        currentDisplay.display();
+
         weatherData.setMeasurements(82, 70, 29.2f);
+        currentDisplay.display();
+
         weatherData.setMeasurements(78, 90, 29.2f);
+        currentDisplay.display();
     }
 }
